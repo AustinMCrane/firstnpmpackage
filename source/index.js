@@ -1,3 +1,3 @@
-modules.exports = function() {
+export function saysomething() {
 return 3.14
 }
