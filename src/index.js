@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class LoginForm extends React.Component {
+class LoginForm extends React.Component {
   render() {
    return(
     <div>
@@ -11,6 +11,10 @@ export class LoginForm extends React.Component {
 }
 
 
-export function saysomething(message) {
+function saysomething(message) {
   console.log(message)
+}
+export {
+  LoginForm,
+  saysomething
 }
